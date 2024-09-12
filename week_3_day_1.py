@@ -264,8 +264,17 @@ print("5.6 rounded is", round(5.6))
 # # On to codehs.com
 
 
+#calculator
+print(8+9)
+#calculator app
 
-
-
-
+num_one = int(input("Enter a number. "))
+num_two = int( input("Enter a second number. "))
+print (num_two-num_one)
+print(num_two/num_one)
+print("The min number is" , min(num_two,num_one))
+print("the absolute value of " + str(num_two) + " is" ,abs(num_two))
+print("Floor of the first number is" ,floor(num_one))
+print("Ceiling of the second number is", ceil(num_two))
+print("The square root of the second number is", sqrt(num_two))
 
